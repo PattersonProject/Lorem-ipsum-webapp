@@ -30,3 +30,17 @@ Route::post('/lorem', function()
 	$data = Input::all();
 	return View::make('loremresult', $data);
 });
+
+Route::get('/usergen', function()
+{
+
+
+    return View::make('usergenform');
+
+});
+
+Route::post('/usergen', function()
+{
+	$data = Input::all();
+	return View::make('usergenresult', $data);
+});
