@@ -13,5 +13,20 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return "Welcome to developers best friend";
+});
+
+	
+Route::get('/lorem', function()
+{
+
+
+    return View::make('loremform');
+
+});
+
+Route::post('/lorem', function()
+{
+	$data = Input::all();
+	return View::make('loremresult', $data);
 });
