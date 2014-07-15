@@ -11,8 +11,8 @@ This application includes both a Lorem Ipsum generator, and a fake user generato
 
 #Details for Teaching Team
 
-*No login required
-*Tools require user to select and copy results
+* No login required
+* Tools require user to select and copy results
 
 
 #Items for next version
