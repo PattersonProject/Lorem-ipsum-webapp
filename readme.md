@@ -13,6 +13,7 @@ This application includes both a Lorem Ipsum generator, and a fake user generato
 
 *No login required
 *Tools require user to select and copy results
+*There is a really nice background image for the header, but I'm having issues serving it on openshift (works great locally)
 
 
 #Items for next version
