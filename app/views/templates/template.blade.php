@@ -9,7 +9,11 @@
 	@show
 </head>
 <body>
-	<h1>Developers Best Friend</h1>
-	@yield('pagetitle')
-	@yield('body')
+	<div class="header">
+		<h1>Developers Best Friend</h1>
+		@yield('pagetitle')
+	</div>
+	<div class="content">
+		@yield('body')
+	</div>
 </body>

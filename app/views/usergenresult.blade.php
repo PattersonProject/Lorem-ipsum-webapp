@@ -17,7 +17,6 @@
 				$users[$i]['streetAddress'] = $faker->streetAddress;
 				$add2 = $faker->city.' '.$faker->stateAbbr.' '.$faker->postcode;
 				$users[$i]['cityStateZip'] = $add2;
-				echo $users[$i]['cityStateZip'];
 			}
 			if (isset($phonenumber)){
 				$users[$i]['phone'] = $faker->phonenumber;

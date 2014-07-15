@@ -22,14 +22,15 @@
 	<fieldset>
 		<legend>Paragraph size</legend>
 		<ul>
+
 			<li>
-				<lable for='smallParagraphBox'>
+				<label for="smallParagraphBox">
 					<input type="radio" name="paragraphsize" value="small" id="smallParagraphBox" checked>
 					Small	
-				</lable>	
+				</label>	
 			</li>
 			<li>
-				<lable for='midParagraphBox'>
+				<label for="midParagraphBox">
 					<input type="radio" name="paragraphsize" value="mid" id="midParagraphBox">
 					Medium
 				</label>
@@ -38,10 +39,12 @@
 				<label for="largeParagraphBox">
 					<input type="radio" name="paragraphsize" value="large" id="largeParagraphBox">
 					Large
+				</label>
+			</li>
 		</ul>
 	</fieldset>
 	<br/>
-	<input type="submit"  value="Get Text!" name="submit" id="loremSubmit">
+	<input type="submit"  value="Get Text!" name="submit" id="loremSubmit" class="button">
 
 {{Form::close()}}
 

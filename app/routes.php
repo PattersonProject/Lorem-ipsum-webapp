@@ -13,7 +13,8 @@
 
 Route::get('/', function()
 {
-	return "Welcome to developers best friend";
+
+	return View::make('landing');
 });
 
 	

@@ -23,13 +23,13 @@
 		<legend>Additional Options (all users have a name)</legend>
 		<ul>
 			<li>
-				<lable for='addressbox'>
-					<input type="checkbox" name="address" value="address" id="addressBox">
+				<label for="addressbox">
+					<input type="checkbox" name="address" value="address" id="addressbox">
 					Address	
-				</lable>	
+				</label>	
 			</li>
 			<li>
-				<lable for='phoneBox'>
+				<label for='phoneBox'>
 					<input type="checkbox" name="phonenumber" value="phone" id="phoneBox">
 					Phone
 				</label>
@@ -49,7 +49,7 @@
 		</ul>
 	</fieldset>
 	<br/>
-	<input type="submit"  value="Get Users!" name="submit" id="userSubmit">
+	<input type="submit"  value="Get Users!" name="submit" id="userSubmit" class="button">
 
 {{Form::close()}}
 

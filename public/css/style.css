@@ -1,22 +1,37 @@
 body{
 	width: 80%;
-	background-color: rgb(121, 167, 255);
+	color: white;
+	background-color: #284B7E;
 	margin: auto;
 	text-align: center;
     font-family: 'Lato', sans-serif;
 
 }
-
+.header{
+  background-image: url(../images/rsz_Rain-Ariyaamo.jpg);
+    background-color: #052F6D; 
+    background-size: cover;
+}
+h1, h2{
+  
+  margin: 0;
+  padding: .3em;
+  border-bottom: 1px solid #FFD840;
+    
+}
+.content{
+  background-color: #6A94D4;
+}
 .result{
 	text-align: center;
-	background-color: #e61b1b;
+	background-color: #FF6400;
 	color: white;
 	display: inline-block;
 	padding: 1.5em;
-    border-top: medium solid LightGrey;
-    border-left: medium solid LightGrey;
-    border-bottom: medium solid grey;
-    border-right: medium solid grey;
+    border-top: thin solid #FFAA73;
+    border-left: thin solid #FFAA73;
+    border-bottom: thin solid #BF6830;
+    border-right: thin solid #BF6830;
 }
 .input{
 	margin: 0 auto;
@@ -34,11 +49,48 @@ ul li {
 	list-style: none;
 	text-align: left;
 }
+
+
 input[type='submit']{
     font-size: 16px;
     margin: 1em;
     padding: .5em;
     height: 2.5em;
     width: 10em;
-    background-color: #e61b1b;
+    background-color: #FFCB00;
 }
+
+/* button generated with http://css-tricks.com/examples/ButtonMaker */
+.button {
+    display: inline-block;
+   border-top: 1px solid #ffe373;
+   background: #ffe373;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#ffe373));
+   background: -webkit-linear-gradient(top, #ffcc00, #ffe373);
+   background: -moz-linear-gradient(top, #ffcc00, #ffe373);
+   background: -ms-linear-gradient(top, #ffcc00, #ffe373);
+   background: -o-linear-gradient(top, #ffcc00, #ffe373);
+   margin:10px;
+    padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #A64100;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #ffab73;
+   background: #ffab73;
+   color: #052F6D;
+   }
+.button:active {
+   border-top-color: #a64000;
+   background: #a64000;
+   }
