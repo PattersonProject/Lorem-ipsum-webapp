@@ -1,6 +1,6 @@
-##Project 3 readme
+#Project 3 readme
 
-#Live URL
+##Live URL
 http://p3-mpatterson.rhcloud.com/
 
 #Project Description
@@ -9,9 +9,8 @@ Develepers Best Friend!
 This application includes both a Lorem Ipsum generator, and a fake user generator.  Both can be reached from the main landing page.
  
 
-#Details for Teaching Team
+#Features
 
-* No login required
 * Tools require user to select and copy results
 
 
