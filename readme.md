@@ -1,7 +1,7 @@
 #Project 3 readme
 
 ##Live URL
-http://p3-mpatterson.rhcloud.com/
+This project is not being deployed live at the current time.  I am troubleshooting running laravel on Openshift and investigating other hosting options. 
 
 #Project Description
 Develepers Best Friend!
