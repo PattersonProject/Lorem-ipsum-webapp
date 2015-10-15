@@ -14,7 +14,10 @@ This application includes both a Lorem Ipsum generator, and a fake user generato
 * Tools require user to select and copy results
 
 
-#Items for next version
+#To Do List
+* Setup error handling for upper and lower limits of number of paragraphs and number of users
+* Add back button to post forms on Lorem Ipsum and User generator
+* Create and add favicon
 * Include a 'select all' button to select generated data for easy copying
 * Add a horizontal nav bar
 * Options for outputting files 
